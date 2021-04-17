@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Score component should render AudioBlock component 1`] = `
+<Fragment>
+  <button
+    className="audio-block"
+    onClick={[Function]}
+    type="button"
+  >
+    <Memo(ForwardRef(VolumeDownIcon))
+      className="audio-block-icon"
+    />
+  </button>
+  <Styled(MuiBox)
+    mt={1}
+    p={2}
+  >
+    Press "SPACE" to play the word
+  </Styled(MuiBox)>
+</Fragment>
+`;

@@ -1,0 +1,8 @@
+.word-list {
+  margin-top: 1rem;
+  width: 100%;
+  display: grid;
+  grid-gap: 1rem;
+  grid-auto-columns: 100%;
+  grid-auto-rows: max-content; 
+}

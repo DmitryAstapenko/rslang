@@ -1,0 +1,14 @@
+@import "./scss/reset.scss";
+
+body {
+  background-image: url("./assets/main.jpg");  
+  background-attachment: fixed;
+  background-size: auto;  
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;  
+}

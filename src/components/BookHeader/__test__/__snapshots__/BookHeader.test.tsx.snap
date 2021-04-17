@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render BookHeader component should render BookHeader component 1`] = `
+<WithStyles(ForwardRef(Paper))
+  className="group-action-level-1"
+  elevation={3}
+>
+  <Styled(MuiBox)
+    className="book-header"
+    marginTop={2}
+    padding={2}
+  >
+    <Styled(MuiBox)>
+      <WithStyles(ForwardRef(Typography))
+        component="h2"
+        variant="h4"
+      >
+         &gt; Раздел 1
+      </WithStyles(ForwardRef(Typography))>
+    </Styled(MuiBox)>
+    <Styled(MuiBox)>
+      <BookSettings />
+    </Styled(MuiBox)>
+  </Styled(MuiBox)>
+</WithStyles(ForwardRef(Paper))>
+`;

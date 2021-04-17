@@ -1,0 +1,28 @@
+@import "../../scss/color-variables.scss";
+
+.book-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.group-action {
+  &-level-1 {
+    background: $group-1-color !important;
+  }
+  &-level-2 {
+    background: $group-2-color !important;
+  }
+  &-level-3 {
+    background: $group-3-color !important;
+  }
+  &-level-4 {
+    background: $group-4-color !important;
+  }
+  &-level-5 {
+    background: $group-5-color !important;
+  }
+  &-level-6 {
+    background: $group-6-color !important;
+  }
+}

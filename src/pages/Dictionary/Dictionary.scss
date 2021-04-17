@@ -1,0 +1,13 @@
+.dictionary-statistics {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+
+  @media (max-width: 1200px) { 
+    grid-template-columns: 100%;
+  }
+
+  @media (max-width: 576px) { 
+    grid-template-columns: repeat(2, 1fr);
+  }  
+}

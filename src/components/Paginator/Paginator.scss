@@ -1,0 +1,9 @@
+.paginator {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+
+  & > div[role="progressbar"] {
+    width: 100%;
+  }
+}

@@ -1,0 +1,38 @@
+@import "../../scss/color-variables.scss";
+
+.unit-statistics {
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5rem;
+  justify-content: center;
+
+  & p {
+    margin: 0;
+    font-weight: bold;
+  }
+
+  @media (max-width: 576px) {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4, auto);
+  }
+
+  &.group-1 {
+    background: $group-1-color !important;
+  }
+  &.group-2 {
+    background: $group-2-color !important;
+  }
+  &.group-3 {
+    background: $group-3-color !important;
+  }
+  &.group-4 {
+    background: $group-4-color !important;
+  }
+  &.group-5 {
+    background: $group-5-color !important;
+  }
+  &.group-6 {
+    background: $group-6-color !important;
+  }
+}

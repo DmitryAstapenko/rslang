@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Score component should render Score component 1`] = `
+<h1
+  className="game-sprint-score"
+>
+  Счёт: 100
+</h1>
+`;

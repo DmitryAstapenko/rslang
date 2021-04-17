@@ -1,0 +1,41 @@
+@import "../../scss/color-variables.scss";
+
+.group-links {
+  margin-top: 1rem;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(6, 1fr);
+
+  @media (max-width: 1200px) { 
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 768px) { 
+    grid-template-columns: repeat(2, 1fr);
+  }  
+
+  &__button-link {
+    width: 100%;        
+  }
+}
+
+.card-action {
+  &-level-1 {
+    background: $group-1-color !important;
+  }
+  &-level-2 {
+    background: $group-2-color !important;
+  }
+  &-level-3 {
+    background: $group-3-color !important;
+  }
+  &-level-4 {
+    background: $group-4-color !important;
+  }
+  &-level-5 {
+    background: $group-5-color !important;
+  }
+  &-level-6 {
+    background: $group-6-color !important;
+  }
+}

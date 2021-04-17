@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Score component should render Time component 1`] = `
+<div
+  className="time-container"
+>
+  <h1
+    className="time-value"
+  >
+    60
+  </h1>
+</div>
+`;

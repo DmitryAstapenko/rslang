@@ -1,0 +1,14 @@
+.dialog {
+  padding: 1rem;
+  width: min-content;
+  height: min-content;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(2, min-content);
+  grid-template-rows: repeat(3, min-content);
+
+  & button {
+    width: 12rem;
+    height: 6rem;
+  }
+}

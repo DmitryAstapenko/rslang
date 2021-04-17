@@ -1,0 +1,39 @@
+.answer-block{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3%;
+}
+
+.answer-block-list{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0.1%;
+  font-size: 20px;
+}
+
+.answer-list-item {
+  margin: 0.5rem !important;  
+  font-weight: bold !important;
+}
+
+.answer-block-button {
+  margin-top: 3% !important;
+}
+
+.list-answer{
+  color: rgba(0,0,0,0.4);
+}
+
+.correctWord{
+  color: rgba(0,0,0,1) !important;
+  font-weight: 700 !important;
+}
+
+.answer-item-span{
+  padding: 5px;
+}

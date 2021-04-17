@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Header component should render Header component 1`] = `
+<Fragment>
+  <Menu
+    closeMenu={[Function]}
+    open={false}
+  />
+  <div
+    className="makeStyles-root-1"
+  >
+    <WithStyles(ForwardRef(AppBar))
+      position="fixed"
+    >
+      <WithStyles(ForwardRef(Toolbar))>
+        <WithStyles(ForwardRef(IconButton))
+          aria-label="menu"
+          className="makeStyles-menuButton-2"
+          color="inherit"
+          edge="start"
+        >
+          <Memo(ForwardRef(MenuIcon))
+            onClick={[Function]}
+          />
+        </WithStyles(ForwardRef(IconButton))>
+        <withRouter(LinkContainer)
+          to="/"
+        >
+          <WithStyles(ForwardRef(Typography))
+            className="makeStyles-title-3"
+            variant="h6"
+          >
+            RSLang
+          </WithStyles(ForwardRef(Typography))>
+        </withRouter(LinkContainer)>
+        <UserBar />
+      </WithStyles(ForwardRef(Toolbar))>
+    </WithStyles(ForwardRef(AppBar))>
+  </div>
+</Fragment>
+`;

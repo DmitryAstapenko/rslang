@@ -1,0 +1,22 @@
+.game-status {
+  width: 100%;  
+}
+
+.game-button-container {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+
+  & button {
+    margin: 0 1rem;
+    width: 8rem;
+    font-weight: bold;
+  }
+}
+
+.game-field{
+  padding: 1rem;
+  width: 30rem;  
+  text-align: center;
+}

@@ -1,0 +1,49 @@
+.game-sprint {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: no-repeat center url("../../assets/images/sprint-background.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.game-sprint-panel {
+  display: flex;
+  justify-content: space-between;
+  width: 30rem;  
+}
+
+.game-sprint-panel-timer {
+  padding: 1rem;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50% !important;
+  background-color: #3f51b5 !important;
+
+  & h5 {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    color: white !important;
+    font-weight: bold !important;
+    width: 2rem !important;
+    height: 2rem !important;
+  }
+}
+
+.game-sprint-panel-score {
+  padding: 1rem;
+  display: flex !important;
+  align-items: center;
+  background-color: #3f51b5 !important;
+
+  & h5 {
+    
+    color: white !important;
+    font-weight: bold !important;
+  }
+}

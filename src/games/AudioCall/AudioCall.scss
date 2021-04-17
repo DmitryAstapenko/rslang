@@ -1,0 +1,12 @@
+.audio-call{
+  width: 100vw;
+  height: 100vh;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  background: no-repeat center url("../../assets/images/audioCall-background.png");
+  background-size: cover;    
+  position: relative;  
+}

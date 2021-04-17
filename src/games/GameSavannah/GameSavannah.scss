@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+}
+.animation {
+  animation: moveword 4s infinite, fade 4s infinite;
+  animation-timing-function: linear;
+}
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes moveword {
+  0% {
+    top: 5%;
+  }
+  100% {
+    top: 60%;
+  }
+}
+@keyframes scaleIn {
+  from {
+    transform: scale(0.5, 0.5);
+    opacity: 0.5;
+  }
+  to {
+    transform: scale(2.5, 2.5);
+    opacity: 0;
+  }
+}
+.game-container {
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url("../../assets/savannah-background.jpg") no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: #ffffff;
+
+  &--guess-word {
+    display: flex;
+    align-items: center;
+    padding: 12px 18px;
+    font-weight: bold;
+    font-size: 26px;
+    background: rgb(220, 0, 78);   
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    position: absolute;
+    border-radius: 24px;
+    top: 5%;
+    z-index: 2;
+  }
+
+  &--buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+
+    &-button {
+      & span {
+        font-weight: bold;
+      }
+
+      &:hover {
+        cursor: pointer;
+        transform: translateY(-5px);
+        transition: transform 0.5s;
+      }
+    }
+  }
+
+  .crystal {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    bottom: 5%;
+    border-radius: 100px;
+    animation: translate 1s ease-in infinite, pulse 2s;
+    animation-direction: alternate-reverse;
+  }
+  @keyframes translate {
+    100% {
+      transform: translateY(5px);
+    }
+  }
+  @keyframes pulse {
+    20% {
+      transform: scale(1);
+    }
+    40% {
+      transform: scale(0.75);
+    }
+    60% {
+      transform: scale(1);
+    }
+    80% {
+      transform: scale(0.75);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+}
+
+.timer {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  font-size: 70px;
+  color: white;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+
+  &--time {
+    z-index: 100;
+    padding: 5px;
+  }
+
+  &-animate {
+    border-radius: 50%;
+    background-color: #f50057;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    opacity: 0;
+    animation: scaleIn 1s infinite cubic-bezier(0.36, 0.11, 0.89, 0.32);
+  }
+}
+
+.game-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  row-gap: 0.5rem;  
+}
+
+.hearts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+  padding: 0.5rem;  
+
+  &--heart {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+.game-settings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+  padding: 0.5rem; 
+}

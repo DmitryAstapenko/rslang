@@ -1,0 +1,31 @@
+.game-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;  
+  z-index: 1100 !important;
+  background-image: url("../../assets/main.jpg");  
+  background-attachment: fixed;
+  background-size: auto;  
+
+  & > .fullscreen-enabled {
+    background-image: url("../../assets/main.jpg");  
+    background-attachment: fixed;
+    background-size: auto;  
+  }
+   
+  &__button-close {
+    z-index: 1;
+    position: fixed !important;
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+
+  &__button-fullscreen {
+    z-index: 1;
+    position: fixed !important;
+    top: calc(1rem + 40px);
+    right: 0.5rem;
+  }
+}

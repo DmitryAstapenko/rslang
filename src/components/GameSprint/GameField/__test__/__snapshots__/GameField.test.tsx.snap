@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Score component should render Score component 1`] = `
+<WithStyles(ForwardRef(Card))
+  className="game-field"
+>
+  <WithStyles(ForwardRef(CardContent))>
+    <div
+      className="game-status"
+    >
+      <div>
+        <span>
+          <Memo(ForwardRef(CheckBoxOutlineBlankIcon)) />
+        </span>
+        <span>
+          <Memo(ForwardRef(CheckBoxOutlineBlankIcon)) />
+        </span>
+        <span>
+          <Memo(ForwardRef(CheckBoxOutlineBlankIcon)) />
+        </span>
+      </div>
+      <p>
+        + 5 очков за слово
+      </p>
+    </div>
+    <WithStyles(ForwardRef(Typography))
+      component="h2"
+      gutterBottom={true}
+      variant="h5"
+    >
+      <Memo(ForwardRef(LooksOneIcon)) />
+    </WithStyles(ForwardRef(Typography))>
+    <WithStyles(ForwardRef(Typography))
+      component="h2"
+      gutterBottom={true}
+      variant="h5"
+    >
+      main
+    </WithStyles(ForwardRef(Typography))>
+    <WithStyles(ForwardRef(Typography))
+      component="h2"
+      gutterBottom={true}
+      variant="h5"
+    >
+      главный
+    </WithStyles(ForwardRef(Typography))>
+  </WithStyles(ForwardRef(CardContent))>
+  <WithStyles(ForwardRef(CardActions))
+    className="game-button-container"
+  >
+    <Styled(MuiBox)>
+      <WithStyles(ForwardRef(Paper))
+        elevation={2}
+      >
+        <Memo(ForwardRef(ArrowBackIcon)) />
+      </WithStyles(ForwardRef(Paper))>
+    </Styled(MuiBox)>
+    <WithStyles(ForwardRef(Button))
+      color="secondary"
+      onClick={[Function]}
+      variant="contained"
+    >
+      Неверно
+    </WithStyles(ForwardRef(Button))>
+    <WithStyles(ForwardRef(Button))
+      color="primary"
+      onClick={[Function]}
+      variant="contained"
+    >
+      Верно
+    </WithStyles(ForwardRef(Button))>
+    <Styled(MuiBox)
+      ml={1}
+    >
+      <WithStyles(ForwardRef(Paper))
+        elevation={2}
+      >
+        <Memo(ForwardRef(ArrowForwardIcon)) />
+      </WithStyles(ForwardRef(Paper))>
+    </Styled(MuiBox)>
+  </WithStyles(ForwardRef(CardActions))>
+</WithStyles(ForwardRef(Card))>
+`;
